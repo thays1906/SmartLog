@@ -38,7 +38,7 @@
   <ItemGroup>
     <Folder Include="Controller\" />
     <Folder Include="Model\Controle\" />
-    <Folder Include="Model\Fronteira\" />
+    <Folder Include="Model\Fronteira\DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Entidade\pessoa\Atendente.cs" />
