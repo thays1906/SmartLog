@@ -35,5 +35,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
+    <Folder Include="Model\Controle\" />
+    <Folder Include="Model\Fronteira\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Entidade\pessoa\Atendente.cs" />
+    <Compile Include="Model\Entidade\pessoa\Cliente.cs" />
+    <Compile Include="Model\Entidade\Endereco.cs" />
+    <Compile Include="Model\Entidade\veiculo\StatusVeiculo.cs" />
+    <Compile Include="Model\Entidade\pessoa\Funcionario.cs" />
+    <Compile Include="Model\Entidade\pessoa\Gerente.cs" />
+    <Compile Include="Model\Entidade\pessoa\Habilitacao.cs" />
+    <Compile Include="Model\Entidade\veiculo\Manutencao.cs" />
+    <Compile Include="Model\Entidade\pessoa\Motorista.cs" />
+    <Compile Include="Model\Entidade\pessoa\Pessoa.cs" />
+    <Compile Include="Model\Entidade\veiculo\Veiculo.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
